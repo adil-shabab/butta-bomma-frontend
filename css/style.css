@@ -7351,6 +7351,14 @@ h6,
 .font-courgette {
   font-family: Courgette; }
 
+.expand__btn{
+  position: absolute;
+  background: transparent;
+  border: none;
+  outline: none;
+  top: -5px;
+  right: 30px;
+}
 .fs-base,
 .form-title {
   font-size: 0.875rem !important; }
