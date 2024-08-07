@@ -13643,6 +13643,9 @@ textarea.form-control-lg {
     .section-title{
       font-size: 21px;
     }
+    .product-single__details-tab {
+      margin: 1.25rem auto 2.375rem !important;
+    }
     .slideshow{
       height: 90vh;
     }
