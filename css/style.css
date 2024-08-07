@@ -13616,7 +13616,10 @@ textarea.form-control-lg {
 
 .footer-mobile__link {
   font-size: 0.8125rem; }
-
+.special__view{
+  margin-top: 73px;
+  padding-top: 63px;
+}
 .slideshow {
   height: 34.5rem; }
   .slideshow.type3 {
@@ -13637,9 +13640,18 @@ textarea.form-control-lg {
       .slideshow.slideshow-md {
         height: 43.75rem; } }
   @media (max-width: 575.98px) {
+    .section-title{
+      font-size: 21px;
+    }
+    .slideshow{
+      height: 90vh;
+    }
     .slideshow.h-xs-25rem {
       height: 25rem; } }
   @media (max-width: 991.98px) {
+    .hero__description{
+      width: 100%;
+    }
     .slideshow.minh-100 {
       min-height: calc(100vh - 4rem); } }
   @media (max-width: 767.98px) {
