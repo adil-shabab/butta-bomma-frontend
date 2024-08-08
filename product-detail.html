@@ -21,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Document Title -->
-  <title>Home | Butta Bomma</title>
+  <title>Product Detail | Butta Bomma</title>
 
 </head>
 
@@ -409,17 +409,15 @@
                 </div>
                 <a href="#" class="sizeguide-link" data-bs-toggle="modal" data-bs-target="#sizeGuide">Size Guide</a>
               </div>
-              <div class="product-swatch color-swatches">
-                <label>Color</label>
-                <div class="swatch-list">
-                  <input type="radio" name="color" id="swatch-11">
-                  <label class="swatch swatch-color js-swatch" for="swatch-11" aria-label="Black" data-bs-toggle="tooltip" data-bs-placement="top" title="Black" style="color: #222"></label>
-                  <input type="radio" name="color" id="swatch-12" checked>
-                  <label class="swatch swatch-color js-swatch" for="swatch-12" aria-label="Red" data-bs-toggle="tooltip" data-bs-placement="top" title="Red" style="color: #C93A3E"></label>
-                  <input type="radio" name="color" id="swatch-13">
-                  <label class="swatch swatch-color js-swatch" for="swatch-13" aria-label="Grey" data-bs-toggle="tooltip" data-bs-placement="top" title="Grey" style="color: #E4E4E4"></label>
-                </div>
+
+              <div class="color-swatches">
+                <div class="swatch" aria-label="yellow" style="background-color: yellow; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
+                <div class="swatch" aria-label="blue" style="background-color: blue; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
+                <div class="swatch" aria-label="green" style="background-color: green; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
               </div>
+              
+              
+              
             </div>
             <div class="product-single__addtocart">
               <div class="qty-control position-relative">
@@ -456,12 +454,78 @@
             <script src="js/details-disclosure.js" defer="defer"></script>
             <script src="js/share.js" defer="defer"></script>
           </div>
-          <div class="product-single__meta-info">
-            <div class="meta-item">
-              <label>Category:</label>
-              <span>Category One</span>
+
+
+          <!-- Add this inside your accordion panel where you want the input fields -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Customization Options
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <form>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="length" class="form-label">Length</label>
+                        <input type="text" class="form-control" id="length">
+                      </div>
+                      <div class="col">
+                        <label for="bodyYokeLength" class="form-label">Body / Yoke Length</label>
+                        <input type="text" class="form-control" id="bodyYokeLength">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="chest" class="form-label">Chest</label>
+                        <input type="text" class="form-control" id="chest">
+                      </div>
+                      <div class="col">
+                        <label for="waist" class="form-label">Waist</label>
+                        <input type="text" class="form-control" id="waist">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="sleeveLength" class="form-label">Sleeve Length</label>
+                        <input type="text" class="form-control" id="sleeveLength">
+                      </div>
+                      <div class="col">
+                        <label for="sleeveWidth" class="form-label">Sleeve Width</label>
+                        <input type="text" class="form-control" id="sleeveWidth">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="armHole" class="form-label">Arm Hole</label>
+                        <input type="text" class="form-control" id="armHole">
+                      </div>
+                      <div class="col">
+                        <label for="frontNeck" class="form-label">Front Neck</label>
+                        <input type="text" class="form-control" id="frontNeck">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="backNeck" class="form-label">Back Neck</label>
+                        <input type="text" class="form-control" id="backNeck">
+                      </div>
+                      <div class="col">
+                        <label for="shoulder" class="form-label">Shoulder</label>
+                        <input type="text" class="form-control" id="shoulder">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
+
+
+
+
         </div>
       </div>
       <div class="product-single__details-tab">
@@ -1092,18 +1156,14 @@
                   </div>
                   <a href="#" class="sizeguide-link" data-bs-toggle="modal" data-bs-target="#sizeGuide">Size Guide</a>
                 </div>
-                <div class="product-swatch color-swatches">
-                  <label>Color</label>
-                  <div class="swatch-list">
-                    <input type="radio" name="color" id="swatch-11">
-                    <label class="swatch swatch-color js-swatch" for="swatch-11" aria-label="Black" data-bs-toggle="tooltip" data-bs-placement="top" title="Black" style="color: #222"></label>
-                    <input type="radio" name="color" id="swatch-12" checked>
-                    <label class="swatch swatch-color js-swatch" for="swatch-12" aria-label="Red" data-bs-toggle="tooltip" data-bs-placement="top" title="Red" style="color: #C93A3E"></label>
-                    <input type="radio" name="color" id="swatch-13">
-                    <label class="swatch swatch-color js-swatch" for="swatch-13" aria-label="Grey" data-bs-toggle="tooltip" data-bs-placement="top" title="Grey" style="color: #E4E4E4"></label>
-                  </div>
+
+                <div class="color-swatches">
+                  <div class="swatch" aria-label="yellow" style="background-color: yellow; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
+                  <div class="swatch" aria-label="blue" style="background-color: blue; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
+                  <div class="swatch" aria-label="green" style="background-color: green; width: 50px; height: 50px; display: inline-block; cursor: pointer; margin: 5px;"></div>
                 </div>
-              </div>
+                
+                
               <div class="product-single__addtocart">
                 <div class="qty-control position-relative">
                   <input type="number" name="quantity" value="1" min="1" class="qty-control__number text-center">
@@ -1169,6 +1229,84 @@
 
   <!-- Footer Scripts -->
   <script src="js/theme.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const imagePaths = {
+        "yellow": {
+          "mainImages": [
+            "./images/products/product-three-1.jpg",
+            "./images/products/product-three-2.jpg",
+            "./images/products/product-three-3.png"
+          ],
+          "thumbnails": [
+            "./images/products/product-three-1.jpg",
+            "./images/products/product-three-2.jpg",
+            "./images/products/product-three-3.png"
+          ]
+        },
+        "blue": {
+          "mainImages": [
+            "./images/products/blue.jpg",
+            "./images/products/blue-2.jpg",
+            ""
+          ],
+          "thumbnails": [
+            "./images/products/blue.jpg",
+            "./images/products/blue-2.jpg",
+            ""
+          ]
+        },
+        "green": {
+          "mainImages": [
+            "./images/products/green.jpg",
+            "",
+            ""
+          ],
+          "thumbnails": [
+            "./images/products/green.jpg",
+            "",
+            ""
+          ]
+        }
+      };
+  
+      const colorSwatches = document.querySelectorAll('.color-swatches .swatch');
+      const mainImages = document.querySelectorAll('.product-single__media .swiper-slide.product-single__image-item img');
+      const thumbnails = document.querySelectorAll('.product-single__thumbnail .swiper-slide.product-single__image-item img');
+  
+      colorSwatches.forEach(swatch => {
+        swatch.addEventListener('click', function() {
+          const selectedColor = this.getAttribute('aria-label');
+          updateImages(selectedColor);
+        });
+      });
+  
+      function updateImages(color) {
+        const paths = imagePaths[color];
+  
+        if (paths) {
+          paths.mainImages.forEach((src, index) => {
+            if (src) {
+              if (mainImages[index]) mainImages[index].src = src;
+            } else {
+              if (mainImages[index]) mainImages[index].parentElement.remove();
+            }
+          });
+  
+          paths.thumbnails.forEach((src, index) => {
+            if (src) {
+              if (thumbnails[index]) thumbnails[index].src = src;
+            } else {
+              if (thumbnails[index]) thumbnails[index].parentElement.remove();
+            }
+          });
+        }
+      }
+    });
+  </script>
+  
+  
 
 </body>
 
